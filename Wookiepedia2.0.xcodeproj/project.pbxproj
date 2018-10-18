@@ -7,17 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F75F1616215C3F5700F7F869 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F160E215C3F5700F7F869 /* Species.swift */; };
+		F75F1617215C3F5700F7F869 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F160F215C3F5700F7F869 /* Planet.swift */; };
+		F75F1618215C3F5700F7F869 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1610215C3F5700F7F869 /* Vehicle.swift */; };
+		F75F1619215C3F5700F7F869 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1611215C3F5700F7F869 /* Categories.swift */; };
+		F75F161A215C3F5700F7F869 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1612215C3F5700F7F869 /* Entity.swift */; };
+		F75F161B215C3F5700F7F869 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1613215C3F5700F7F869 /* Film.swift */; };
+		F75F161C215C3F5700F7F869 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1614215C3F5700F7F869 /* Person.swift */; };
+		F75F161D215C3F5700F7F869 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1615215C3F5700F7F869 /* Starship.swift */; };
+		F75F1620215C43A000F7F869 /* SwapiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F161F215C43A000F7F869 /* SwapiClient.swift */; };
+		F75F1623215C51E400F7F869 /* CategoriesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1622215C51E400F7F869 /* CategoriesCollectionViewController.swift */; };
+		F75F1625215C535100F7F869 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1624215C535100F7F869 /* CategoryCollectionViewCell.swift */; };
+		F75F1627215C55A000F7F869 /* EntityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1626215C55A000F7F869 /* EntityTableViewController.swift */; };
+		F75F1629215C589C00F7F869 /* EntityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1628215C589C00F7F869 /* EntityTableViewCell.swift */; };
 		F7A2FEEA215C3E0B00B8E3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2FEE9215C3E0B00B8E3AB /* AppDelegate.swift */; };
-		F7A2FEEC215C3E0B00B8E3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A2FEEB215C3E0B00B8E3AB /* ViewController.swift */; };
 		F7A2FEEF215C3E0B00B8E3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A2FEED215C3E0B00B8E3AB /* Main.storyboard */; };
 		F7A2FEF1215C3E0C00B8E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A2FEF0215C3E0C00B8E3AB /* Assets.xcassets */; };
 		F7A2FEF4215C3E0C00B8E3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A2FEF2215C3E0C00B8E3AB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F75F160E215C3F5700F7F869 /* Species.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		F75F160F215C3F5700F7F869 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F75F1610215C3F5700F7F869 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F75F1611215C3F5700F7F869 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		F75F1612215C3F5700F7F869 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		F75F1613215C3F5700F7F869 /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		F75F1614215C3F5700F7F869 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F75F1615215C3F5700F7F869 /* Starship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		F75F161F215C43A000F7F869 /* SwapiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiClient.swift; sourceTree = "<group>"; };
+		F75F1622215C51E400F7F869 /* CategoriesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewController.swift; sourceTree = "<group>"; };
+		F75F1624215C535100F7F869 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		F75F1626215C55A000F7F869 /* EntityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTableViewController.swift; sourceTree = "<group>"; };
+		F75F1628215C589C00F7F869 /* EntityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTableViewCell.swift; sourceTree = "<group>"; };
 		F7A2FEE6215C3E0B00B8E3AB /* Wookiepedia2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wookiepedia2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A2FEE9215C3E0B00B8E3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7A2FEEB215C3E0B00B8E3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7A2FEEE215C3E0B00B8E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A2FEF0215C3E0C00B8E3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A2FEF3215C3E0C00B8E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +59,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F75F161E215C3F6C00F7F869 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7A2FEE9215C3E0B00B8E3AB /* AppDelegate.swift */,
+				F7A2FEED215C3E0B00B8E3AB /* Main.storyboard */,
+				F7A2FEF0215C3E0C00B8E3AB /* Assets.xcassets */,
+				F7A2FEF2215C3E0C00B8E3AB /* LaunchScreen.storyboard */,
+				F7A2FEF5215C3E0C00B8E3AB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F75F1621215C51BD00F7F869 /* NetworkingClient */ = {
+			isa = PBXGroup;
+			children = (
+				F75F161F215C43A000F7F869 /* SwapiClient.swift */,
+			);
+			path = NetworkingClient;
+			sourceTree = "<group>";
+		};
+		F75F162A215C58A300F7F869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1624215C535100F7F869 /* CategoryCollectionViewCell.swift */,
+				F75F1628215C589C00F7F869 /* EntityTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F75F162B215C58AA00F7F869 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1622215C51E400F7F869 /* CategoriesCollectionViewController.swift */,
+				F75F1626215C55A000F7F869 /* EntityTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F7A2FEDD215C3E0B00B8E3AB = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +116,28 @@
 		F7A2FEE8215C3E0B00B8E3AB /* Wookiepedia2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				F7A2FEE9215C3E0B00B8E3AB /* AppDelegate.swift */,
-				F7A2FEEB215C3E0B00B8E3AB /* ViewController.swift */,
-				F7A2FEED215C3E0B00B8E3AB /* Main.storyboard */,
-				F7A2FEF0215C3E0C00B8E3AB /* Assets.xcassets */,
-				F7A2FEF2215C3E0C00B8E3AB /* LaunchScreen.storyboard */,
-				F7A2FEF5215C3E0C00B8E3AB /* Info.plist */,
+				F7A2FEFB215C3E9B00B8E3AB /* Models */,
+				F75F161E215C3F6C00F7F869 /* Resources */,
+				F75F1621215C51BD00F7F869 /* NetworkingClient */,
+				F75F162B215C58AA00F7F869 /* ViewControllers */,
+				F75F162A215C58A300F7F869 /* Views */,
 			);
 			path = Wookiepedia2.0;
+			sourceTree = "<group>";
+		};
+		F7A2FEFB215C3E9B00B8E3AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1611215C3F5700F7F869 /* Categories.swift */,
+				F75F1612215C3F5700F7F869 /* Entity.swift */,
+				F75F1613215C3F5700F7F869 /* Film.swift */,
+				F75F1614215C3F5700F7F869 /* Person.swift */,
+				F75F160F215C3F5700F7F869 /* Planet.swift */,
+				F75F160E215C3F5700F7F869 /* Species.swift */,
+				F75F1615215C3F5700F7F869 /* Starship.swift */,
+				F75F1610215C3F5700F7F869 /* Vehicle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A2FEEC215C3E0B00B8E3AB /* ViewController.swift in Sources */,
+				F75F161D215C3F5700F7F869 /* Starship.swift in Sources */,
+				F75F1627215C55A000F7F869 /* EntityTableViewController.swift in Sources */,
+				F75F1629215C589C00F7F869 /* EntityTableViewCell.swift in Sources */,
+				F75F1616215C3F5700F7F869 /* Species.swift in Sources */,
+				F75F161A215C3F5700F7F869 /* Entity.swift in Sources */,
 				F7A2FEEA215C3E0B00B8E3AB /* AppDelegate.swift in Sources */,
+				F75F1625215C535100F7F869 /* CategoryCollectionViewCell.swift in Sources */,
+				F75F1618215C3F5700F7F869 /* Vehicle.swift in Sources */,
+				F75F161B215C3F5700F7F869 /* Film.swift in Sources */,
+				F75F161C215C3F5700F7F869 /* Person.swift in Sources */,
+				F75F1620215C43A000F7F869 /* SwapiClient.swift in Sources */,
+				F75F1617215C3F5700F7F869 /* Planet.swift in Sources */,
+				F75F1619215C3F5700F7F869 /* Categories.swift in Sources */,
+				F75F1623215C51E400F7F869 /* CategoriesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +371,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Wookiepedia2.0/Info.plist;
+				DEVELOPMENT_TEAM = 77U2457882;
+				INFOPLIST_FILE = "$(SRCROOT)/Wookiepedia2.0/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +389,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Wookiepedia2.0/Info.plist;
+				DEVELOPMENT_TEAM = 77U2457882;
+				INFOPLIST_FILE = "$(SRCROOT)/Wookiepedia2.0/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
